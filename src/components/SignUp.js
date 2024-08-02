@@ -28,7 +28,7 @@ function SignUp() {
   });
   const onSubmit = async (data) => {
     try {
-      let response = await axios.post("http://localhost:9000/sign-up", data);
+      let response = await axios.post("https://slend-it-backend.onrender.com/sign-up", data);
 
       if (response) {
         toast.success("User signed up Successfully!", {

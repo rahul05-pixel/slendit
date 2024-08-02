@@ -32,7 +32,7 @@ function Login() {
   });
   const onSubmit = async (data) => {
     try {
-      let response = await axios.post("http://localhost:9000/login", data);
+      let response = await axios.post("https://slend-it-backend.onrender.com/login", data);
 
       if (response) {
         toast.success("Login Successfull", {

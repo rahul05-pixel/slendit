@@ -22,7 +22,7 @@ function Dashboard() {
     const authToken = JSON.parse(localStorage.getItem("authToken"));
     const token = authToken?.access?.token;
     let response = await axios.get(
-      "http://localhost:9000/auth/getAll-short-url",
+      "https://slend-it-backend.onrender.com/auth/getAll-short-url",
       {
         headers: { Authorization: `Bearer ${token}` },
       }
@@ -35,7 +35,7 @@ function Dashboard() {
     const authToken = JSON.parse(localStorage.getItem("authToken"));
     const token = authToken?.access?.token;
     let response = await axios.post(
-      "http://localhost:9000/auth/short-url",
+      "https://slend-it-backend.onrender.com/auth/short-url",
       {
         weburl: longUrl,
       },
@@ -60,7 +60,7 @@ function Dashboard() {
   };
   const handleClicks = async (id) => {
     console.log(id);
-    let response = await axios.post(`http://localhost:9000/${id}`);
+    let response = await axios.post(`https://slend-it-backend.onrender.com/${id}`);
     if (response) {
       getUrls();
     }
@@ -72,7 +72,7 @@ function Dashboard() {
     const token = authToken?.access?.token;
 
     let response = await axios.put(
-      `http://localhost:9000/auth/edit-short-url`,
+      `https://slend-it-backend.onrender.com/auth/edit-short-url`,
       {
         id: data.id,
         weburl: data.url,

@@ -10,7 +10,7 @@ function LandingPage() {
 
   const shortenUrl = async () => {
     
-    let response = await axios.post("http://localhost:9000/short-url", {
+    let response = await axios.post("https://slend-it-backend.onrender.com/short-url", {
       weburl: longUrl,
     });
     console.log(response.data.shortenedUrl);

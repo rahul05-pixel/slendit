@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const withAuth = (WrappedComponent) =>
+  // eslint-disable-next-line react/display-name
   ({ ...props }) => {
     const [isClient, setIsClient] = useState(false);
     const Router = useRouter();
