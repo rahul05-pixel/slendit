@@ -1,0 +1,16 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="1024" fill="#021746"/>
+<line x1="240.5" y1="-2.18557e-08" x2="240.5" y2="1024" stroke="#0A2A4C"/>
+<line x1="539.5" y1="-2.18557e-08" x2="539.5" y2="1024" stroke="#0A2A4C"/>
+<line x1="901.5" y1="-2.18557e-08" x2="901.5" y2="1024" stroke="#0A2A4C"/>
+<line x1="1200.5" y1="-2.18557e-08" x2="1200.5" y2="1024" stroke="#0A2A4C"/>
+<circle cx="131" cy="268" r="12" fill="#F37C62"/>
+<circle cx="163" cy="775" r="12" fill="#F37C62"/>
+<circle cx="240" cy="500" r="12" fill="#3369E7"/>
+<circle cx="495" cy="180" r="12" fill="#3369E7"/>
+<circle cx="1248" cy="852" r="12" fill="#3369E7"/>
+<circle cx="1272" cy="334" r="12" fill="#F37C62"/>
+<rect x="801" y="917.041" width="24" height="24" transform="rotate(-30.1129 801 917.041)" fill="#F7F4E3"/>
+<rect x="1012" y="524.041" width="24" height="24" transform="rotate(-30.1129 1012 524.041)" fill="#F7F4E3"/>
+<rect x="818" y="70.041" width="24" height="24" transform="rotate(-30.1129 818 70.041)" fill="#F7F4E3"/>
+</svg>
